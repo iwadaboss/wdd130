@@ -1,0 +1,25 @@
+footer {
+    background-color: gray;
+    color: rgba(255, 255, 255, 0.568);
+}
+footer p {
+    padding: 25px;
+}
+h1 {
+    margin: 50px 0;
+}
+nav {
+    background-color: gray;
+}
+a {
+    color: white;
+}
+nav {
+    padding: 25px;
+}
+a {
+    padding: 25px;
+}
+body {
+    margin: 0
+}
