@@ -1,3 +1,13 @@
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+  
 footer {
     background-color: gray;
     color: rgba(255, 255, 255, 0.568);
