@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap');
 
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #396E94   ;
+  --secondary-color: #E7C24F ;
+  --accent1-color: #A42212;
+  --accent2-color: #381d2a;
+}
 
 body {
     background-color: #D4AC0D;
@@ -50,4 +58,20 @@ footer p a:hover {
 
 main section img {
     box-sizing: border-box;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #D4AC0D;
+}
+
+header {
+    background-color: rgba(20, 30, 13, .7);
+}
+
+nav a:hover {
+    background-color: black;
 }
