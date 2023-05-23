@@ -1,7 +1,12 @@
+
+
 body {
     background-color: #D4AC0D;
 }
-
+#content {
+    max-width: 1600px;
+    margin: 0 auto;;
+}
 header {
     background-color: var(--primary-color);
 }
