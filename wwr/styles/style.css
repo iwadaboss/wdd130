@@ -75,3 +75,25 @@ header {
 nav a:hover {
     background-color: black;
 }
+
+.book,
+.join {
+    background-color: #999;
+    color: #999;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+nav a:hover {
+    background-color: black;
+    color:            #d9c2a3;
+}
+
+nav a {text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;}
+
+
+
