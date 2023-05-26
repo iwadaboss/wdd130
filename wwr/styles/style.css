@@ -77,7 +77,78 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-}    
+}
+#content { 
+    margin: 0 auto; 
+    max-width: 1600px; 
+} 
+
+text-align center #hero-msg h1, #hero-msg h4 
+
+.button-box main section
+
+#background { 
+    height: 725px; }
+
+nav a:hover {
+    background-color: black;
+} 
+
+.book,
+.join {}
+
+.book:hover,
+join:hover {}
+
+.msg {}
+
+footer {}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+nav a {}
+
+.home-title {}
+
+h4 {}
+
+.book,
+.join {}
+
+.book,
+.join {}
+
+.book:hover,
+.join:hover {}
+
+.msg h2 {}
+
+.msg p {}
+
+footer p {}
+
+footer a {}
+
+.icon {
+    width: 80px;
+}
+
+.logo {}
+
+#hero-img {}
+
+nav a {
+    text-align:      center;
+    color:           #fcfbfb
+    text-decoration: none;
+}
+
+.book,
+.join {}
+
 footer p {
     font-size: 1.2em;
 } 
