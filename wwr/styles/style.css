@@ -17,11 +17,13 @@
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
     color: white;
+    margin-top: 10px;
 }
 
 .msg {
     background-color: yellowgreen;
     line-height: 1.5em;
+    padding: 35px;
 }
 
 
@@ -79,6 +81,7 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 
@@ -120,6 +123,8 @@ main section {
 footer {
     background-color: green;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
@@ -134,19 +139,20 @@ h4 {
 
 .msg p {
     color: white;
+    padding-bottom: 15px;
+
+    font-size: .8em;
 }
 
 footer a {
     color: white;
     text-decoration: none;
 }
+
 footer a:hover {
     color: blueviolet;
 }
 
-.icon {
-    width: 80px;
-}
 
 .logo {
     width: 80px;
@@ -163,4 +169,19 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer.social img {
+    padding-top: 15px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+   
 }
