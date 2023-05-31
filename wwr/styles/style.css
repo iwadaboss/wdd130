@@ -16,12 +16,14 @@
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
+    color: white;
 }
 
 .msg {
-    background-color: #fcfbfb;
+    background-color: yellowgreen;
     line-height: 1.5em;
 }
+
 
 body {
     background-color: #fcfbfb;
@@ -35,9 +37,6 @@ h2 {
     margin: 0;
 }
 
-body {
-    background-color: #fcfbfb;
-}
 
 nav a {
     text-decoration: none;
@@ -45,6 +44,7 @@ nav a {
     text-align: center;
     padding: 35px;
 }
+
 
 .book,
 .join {
@@ -65,21 +65,12 @@ main section img {
     box-sizing: border-box;
 }
 
-background {
-    height: 725px;
-}
 
-body {
-    background-color: #fcfbfb;
-}
 
 header {
     background-color: rgba(20, 30, 13, .7);
 }
 
-nav a:hover {
-    background-color: black;
-}
 
 nav a:hover {
     background-color: black;
@@ -90,11 +81,7 @@ nav a:hover {
     width: 80px;
 }
 
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}
+
 
 #content {
     margin: 0 auto;
@@ -116,39 +103,58 @@ main section {
 
 #background {
     height: 725px;
+    background-color: blue;
 }
 
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
-}
+
 
 
 
 .book:hover,
-.join:hover {}
-
-.msg {}
-
-footer {}
+.join:hover {
+    background-color: red;
+}
 
 
 
-h4 {}
+footer {
+    background-color: green;
+    color: white;
+}
 
-.msg h2 {}
 
-.msg p {}
 
-footer a {}
+h4 {
+    color: white;
+}
+
+.msg h2 {
+    color: white;
+}
+
+.msg p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: blueviolet;
+}
 
 .icon {
     width: 80px;
 }
 
-.logo {}
+.logo {
+    width: 80px;
+}
 
-#hero-img {}
+#hero-img {
+    width: 100%;
+}
 
 
 footer p {
