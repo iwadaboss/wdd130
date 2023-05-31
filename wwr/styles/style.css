@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: #381d2a;
+    /* change the values below to your colors from your palette */
+    --primary-color: #396E94;
+    --secondary-color: #E7C24F;
+    --accent1-color: #A42212;
+    --accent2-color: #381d2a;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .home-title {
@@ -16,17 +21,20 @@
 .msg {
     background-color: #fcfbfb;
     line-height: 1.5em;
-  }
-  body {
+}
+
+body {
     background-color: #fcfbfb;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
+
 h2 {
     margin: 0;
 }
+
 body {
     background-color: #fcfbfb;
 }
@@ -37,7 +45,9 @@ nav a {
     text-align: center;
     padding: 35px;
 }
-.book, .join {
+
+.book,
+.join {
     background-color: #d9c2a3;
     color: black;
     text-decoration: none;
@@ -54,81 +64,81 @@ nav a {
 main section img {
     box-sizing: border-box;
 }
+
 background {
     height: 725px;
 }
+
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
 }
+
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: rgba(20, 30, 13, .7);
 }
+
 nav a:hover {
     background-color: black;
 }
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
-} 
+}
+
 .icon {
     width: 80px;
 }
+
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
 }
-#content { 
-    margin: 0 auto; 
-    max-width: 1600px; 
-} 
 
-text-align center #hero-msg h1, #hero-msg h4 
+#content {
+    margin: 0 auto;
+    max-width: 1600px;
+}
 
-.button-box main section
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
 
-#background { 
-    height: 725px; }
+.button-box {
+    text-align: center;
+}
 
-nav a:hover {
-    background-color: black;
-} 
+main section {
+    text-align: center;
+}
 
-.book,
-.join {}
-
-.book:hover,
-join:hover {}
-
-.msg {}
-
-footer {}
+#background {
+    height: 725px;
+}
 
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }
 
-nav a {}
 
-.home-title {}
-
-h4 {}
-
-.book,
-.join {}
-
-.book,
-.join {}
 
 .book:hover,
 .join:hover {}
 
+.msg {}
+
+footer {}
+
+
+
+h4 {}
+
 .msg h2 {}
 
 .msg p {}
-
-footer p {}
 
 footer a {}
 
@@ -140,19 +150,11 @@ footer a {}
 
 #hero-img {}
 
-nav a {
-    text-align:      center;
-    color:           #fcfbfb
-    text-decoration: none;
-}
-
-.book,
-.join {}
 
 footer p {
     font-size: 1.2em;
-} 
+}
+
 footer p a:hover {
     text-decoration: underline;
-} 
-
+}
